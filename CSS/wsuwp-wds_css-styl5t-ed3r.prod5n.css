@@ -1,0 +1,535 @@
+/*!*****************************************************************************
+ * WSUWP CSS Stylsheet Editor: ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓
+ *                             ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓
+ * ▄▀▀▄ ▄▀▀▀ █▀▀▀             ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓
+ * █▄▄█ █    █▀▀              ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓
+ * █  ▀  ▀▀▀ ▀▀▀▀            ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓
+ * 
+ * The following section of this stylesheet contains CSS code built from Less
+ *  modules written for use on the WSU Office of Assessment for Curricular
+ *  Effectiveness (ACE) to customize the layout and presentation of WDS
+ *  elements, components, modules, and assemblies. This stylesheet is designed,
+ *  built, and maintained by the Division of Academic Engagement and Student
+ *  Achievement (DAESA) in the Office of the Provost at Washington State
+ *  University (WSU).
+ *
+ * Specifically, the CSS code in the following section was generated from
+ *   precompiled CSS written in the Less language extension of CSS. It is
+ *   designed to be applied via the WSUWP CSS Stylesheet Editor functioning in
+ *   add-on mode. It was written for use with the Web Design System 2.0 theme.
+ *
+ * Please refer to the linked GitHub project for fully documented, precompiled
+ *   source code.
+ *
+ * @version 0.0.0
+ *
+ * @link https://github.com/invokeImmediately/ace.daesa.wsu.edu/blob/main/CSS/wsuwp-wds_css-styl5t-ed3r.prod5n.css
+ * @link https://github.com/invokeImmediately/WSU-DAESA-CSS-WDS
+ * @link https://github.com/wsuwebteam/wsuwp-theme-wds
+ *
+ * @author Daniel Rieck
+ *   [daniel.rieck@wsu.edu]
+ *   (https://github.com/invokeImmediately)
+ *
+ * @license MIT Copyright (c) 2023 Washington State University
+ *  Permission is hereby granted, free of charge, to any person obtaining a copy
+ *   of this software and associated documentation files (the "Software"), to
+ *   deal in the Software without restriction, including without limitation the
+ *   rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+ *   sell copies of the Software, and to permit persons to whom the Software is
+ *   furnished to do so, subject to the following conditions:
+ *  The above copyright notice and this permission notice shall be included in
+ *    all copies or substantial portions of the Software.
+ *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ *   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ *   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ *   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ *   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ *   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ *   DEALINGS IN THE SOFTWARE.
+ ******************************************************************************/
+/*! —» Customization: Atomic CSS → Utility Classes for Specifying Widths «— */
+.w--5pct {
+  width: 5%;
+}
+
+.w--10pct {
+  width: 10%;
+}
+
+.w--15pct {
+  width: 15%;
+}
+
+.w--20pct {
+  width: 20%;
+}
+
+.w--25pct {
+  width: 25%;
+}
+
+.w--30pct {
+  width: 30%;
+}
+
+.w--35pct {
+  width: 35%;
+}
+
+.w--40pct {
+  width: 40%;
+}
+
+.w--45pct {
+  width: 45%;
+}
+
+.w--50pct {
+  width: 50%;
+}
+
+.w--55pct {
+  width: 55%;
+}
+
+.w--60pct {
+  width: 60%;
+}
+
+.w--65pct {
+  width: 65%;
+}
+
+.w--70pct {
+  width: 70%;
+}
+
+.w--75pct {
+  width: 75%;
+}
+
+.w--80pct {
+  width: 80%;
+}
+
+.w--85pct {
+  width: 85%;
+}
+
+.w--90pct {
+  width: 90%;
+}
+
+.w--95pct {
+  width: 95%;
+}
+
+.w--100pct {
+  width: 100%;
+}
+
+.w--64px {
+  width: 64px;
+}
+
+.mnw--64px {
+  min-width: 64px;
+}
+
+.mw--64px {
+  max-width: 64px !important;
+}
+
+.w--80px {
+  width: 80px;
+}
+
+.mnw--80px {
+  min-width: 80px;
+}
+
+.mw--80px {
+  max-width: 80px !important;
+}
+
+.w--96px {
+  width: 96px;
+}
+
+.mnw--96px {
+  min-width: 96px;
+}
+
+.mw--96px {
+  max-width: 96px !important;
+}
+
+.w--112px {
+  width: 112px;
+}
+
+.mnw--112px {
+  min-width: 112px;
+}
+
+.mw--112px {
+  max-width: 112px !important;
+}
+
+.w--128px {
+  width: 128px;
+}
+
+.mnw--128px {
+  min-width: 128px;
+}
+
+.mw--128px {
+  max-width: 128px !important;
+}
+
+.w--144px {
+  width: 144px;
+}
+
+.mnw--144px {
+  min-width: 144px;
+}
+
+.mw--144px {
+  max-width: 144px !important;
+}
+
+.w--160px {
+  width: 160px;
+}
+
+.mnw--160px {
+  min-width: 160px;
+}
+
+.mw--160px {
+  max-width: 160px !important;
+}
+
+.w--176px {
+  width: 176px;
+}
+
+.mnw--176px {
+  min-width: 176px;
+}
+
+.mw--176px {
+  max-width: 176px !important;
+}
+
+.w--192px {
+  width: 192px;
+}
+
+.mnw--192px {
+  min-width: 192px;
+}
+
+.mw--192px {
+  max-width: 192px !important;
+}
+
+.w--208px {
+  width: 208px;
+}
+
+.mnw--208px {
+  min-width: 208px;
+}
+
+.mw--208px {
+  max-width: 208px !important;
+}
+
+.w--224px {
+  width: 224px;
+}
+
+.mnw--224px {
+  min-width: 224px;
+}
+
+.mw--224px {
+  max-width: 224px !important;
+}
+
+.w--240px {
+  width: 240px;
+}
+
+.mnw--240px {
+  min-width: 240px;
+}
+
+.mw--240px {
+  max-width: 240px !important;
+}
+
+.w--256px {
+  width: 256px;
+}
+
+.mnw--256px {
+  min-width: 256px;
+}
+
+.mw--256px {
+  max-width: 256px !important;
+}
+
+.w--288px {
+  width: 288px;
+}
+
+.mnw--288px {
+  min-width: 288px;
+}
+
+.mw--288px {
+  max-width: 288px !important;
+}
+
+.w--320px {
+  width: 320px;
+}
+
+.mnw--320px {
+  min-width: 320px;
+}
+
+.mw--320px {
+  max-width: 320px !important;
+}
+
+.w--384px {
+  width: 384px;
+}
+
+.mnw--384px {
+  min-width: 384px;
+}
+
+.mw--384px {
+  max-width: 384px !important;
+}
+
+.w--448px {
+  width: 448px;
+}
+
+.mnw--448px {
+  min-width: 448px;
+}
+
+.mw--448px {
+  max-width: 448px !important;
+}
+
+.w--512px {
+  width: 512px;
+}
+
+.mnw--512px {
+  min-width: 512px;
+}
+
+.mw--512px {
+  max-width: 512px !important;
+}
+
+.w--576px {
+  width: 576px;
+}
+
+.mnw--576px {
+  min-width: 576px;
+}
+
+.mw--576px {
+  max-width: 576px !important;
+}
+
+.w--640px {
+  width: 640px;
+}
+
+.mnw--640px {
+  min-width: 640px;
+}
+
+.mw--640px {
+  max-width: 640px !important;
+}
+
+.w--768px {
+  width: 768px;
+}
+
+.mnw--768px {
+  min-width: 768px;
+}
+
+.mw--768px {
+  max-width: 768px !important;
+}
+
+.w--832px {
+  width: 832px;
+}
+
+.mnw--832px {
+  min-width: 832px;
+}
+
+.mw--832px {
+  max-width: 832px !important;
+}
+
+.w--896px {
+  width: 896px;
+}
+
+.mnw--896px {
+  min-width: 896px;
+}
+
+.mw--896px {
+  max-width: 896px !important;
+}
+
+.w--960px {
+  width: 960px;
+}
+
+.mnw--960px {
+  min-width: 960px;
+}
+
+.mw--960px {
+  max-width: 960px !important;
+}
+
+.mw--none {
+  max-width: none;
+}
+
+.mw--80ch {
+  max-width: 80ch !important;
+}
+
+.w--auto {
+  width: auto !important;
+}
+
+.h--64px {
+  height: 64px;
+}
+
+.h--80px {
+  height: 80px;
+}
+
+.h--96px {
+  height: 96px;
+}
+
+.h--112px {
+  height: 112px;
+}
+
+.h--128px {
+  height: 128px;
+}
+
+.h--144px {
+  height: 144px;
+}
+
+.h--160px {
+  height: 160px;
+}
+
+.h--176px {
+  height: 176px;
+}
+
+.h--192px {
+  height: 192px;
+}
+
+.h--208px {
+  height: 208px;
+}
+
+.h--224px {
+  height: 224px;
+}
+
+.h--240px {
+  height: 240px;
+}
+
+.h--256px {
+  height: 256px;
+}
+
+.h--272px {
+  height: 272px;
+}
+
+.h--288px {
+  height: 288px;
+}
+
+.h--304px {
+  height: 304px;
+}
+
+.h--320px {
+  height: 320px;
+}
+
+.h--336px {
+  height: 336px;
+}
+
+.h--352px {
+  height: 352px;
+}
+
+.h--368px {
+  height: 368px;
+}
+
+.h--384px {
+  height: 384px;
+}
+
+.h--400px {
+  height: 400px;
+}
+
+.h--auto {
+  height: auto;
+}
+
+/*! —» Customization: Paragraph and List WDS Elements → Default Font Sizing for Body text «— */
+:is(p:not([class*="wsu-font-size--"]), ul:not([class~="wsu-font-size--"]), ol:not([class*="wsu-font-size--"])) {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/*! —» Customization:  Paragraph and List WDS Elements → Default Spacing between Paragraphs and Lists «— */
+@media screen and (min-width: 769px) {
+  :is(p:not([class*="wsu-spacing-after--"]) + ul:not([class*="wsu-spacing-before--"]), p:not([class*="wsu-spacing-after--"]) + ol:not([class*="wsu-spacing-before--"])) {
+    margin-top: -1.375rem;
+  }
+}
